@@ -8,7 +8,7 @@
     <copyright>Copyright (C) 2024 Clifford E Ford, All rights reserved.</copyright>
     <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
     <!--  The version string is recorded in the components table -->
-    <version>0.0.1</version>
+    <version>0.1.0</version>
     <!-- The description is optional and defaults to the name -->
     <description>MOD_DOWNMSG_XML_DESCRIPTION</description>
     <namespace path="src">Cefjdemos\Module\Downmsg</namespace>
@@ -20,6 +20,11 @@
         <folder>tmpl</folder>
     </files>
     <help url="MOD_DOWNMSG_HELP_URL" />
+    <changelogurl>https://raw.githubusercontent.com/ceford/cefjdemos-mod-downmsg/main/changelog.xml</changelogurl>
+    <updateservers>
+        <!-- Note: No spaces or linebreaks allowed between the server tags -->
+        <server type="extension" priority="2" name="Mod Downmsg Update Site">https://raw.githubusercontent.com/ceford/cefjdemos-mod-downmsg/main/updates.xml</server>
+    </updateservers>
     <config>
         <fields name="params">
             <fieldset name="basic">
